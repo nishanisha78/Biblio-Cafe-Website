@@ -1,5 +1,6 @@
 # Biblio-Cafe-Website
 About Biblio Café
+<br>
 Biblio Café is a front-end development project designed to showcase a cohesive brand experience across a multi-page web architecture. Unlike simple one-page sites, this project handles complex data presentation—such as menu pricing tables and structured store hours—within a sophisticated visual theme.
 
 ## Project Objectives
