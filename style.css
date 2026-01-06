@@ -1,0 +1,209 @@
+/* 1. General Settings */
+* {
+    box-sizing: border-box; /* Makes padding easier to manage */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #443730; /* Dark coffee brown */
+    background-color: #fcf9f2; /* Soft cream background */
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Making base text larger */
+}
+
+/* 2. Header & Navigation */
+header {
+    background-color: #3e2723; /* Deep espresso brown */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #d7ccc8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* 3. Main Content Container */
+main {
+    max-width: 1000px; /* Makes the site feel "large" but organized */
+    margin: 40px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Adds depth */
+}
+
+/* 4. Beautiful Menu Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+table, th, td {
+    border: none !important; 
+}
+
+thead tr:first-child th {
+    background-color: #6d4c41;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+th {
+    background-color: #efebe9;
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #d7ccc8;
+}
+
+tr:hover {
+    background-color: #f5f5f5; /* Subtle highlight on hover */
+}
+
+/* 5. Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* 6. Trivia Section */
+details {
+    background: #fdf5e6;
+    padding: 20px;
+    border-left: 5px solid #6d4c41;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* 7. Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #3e2723;
+    color: white;
+}
+
+/* Hours Page Specific Styling */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Puts Day and Time side-by-side */
+    gap: 20px;
+    background: #fdf5e6;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px dashed var(--gold);
+    max-width: 500px;
+    margin: 30px auto; /* Centers the list */
+}
+
+dt {
+    font-weight: bold;
+    color: var(--espresso);
+    font-size: 1.2rem;
+}
+
+dd {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+/* Make the "Back to top" link look like a button */
+main a[href="#"] {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+/* Contact Form Styling */
+fieldset {
+    border: 2px solid var(--gold);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fdfaf5;
+}
+
+legend {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: var(--espresso);
+    font-size: 1.3rem;
+    padding: 0 10px;
+}
+
+/* Make inputs look modern */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #d7ccc8;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--espresso);
+    box-shadow: 0 0 5px rgba(62, 39, 35, 0.2);
+}
+
+/* Address Styling */
+address {
+    font-style: normal;
+    background: var(--espresso);
+    color: rgb(47, 22, 22);
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 2;
+    text-align: center;
+}
+
+address a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: bold;
+}
